@@ -1,0 +1,239 @@
+@import './variables';
+
+.nav {
+  width: 238px;
+
+  &__figure {
+    width: 121px;
+    margin: 44px 58px 0 57px;
+  }
+
+  &__image {
+    width: 157.2px;
+    height: 190.46px;
+    margin: 60px 40.8px 99.54px 40px;
+  }
+
+  &__upgrade {
+    display: flex;
+    flex-direction: column;
+    background-color: $colorSkyBlue;
+    width: 168px;
+    height: 106px;
+    border-radius: 18px;
+    margin: 0 35px 40px 35px;
+
+    &__top {
+      color: $colorTextBlack;
+      font-family: 'Manrope';
+      font-weight: 700;
+      font-size: 14px;
+      margin: 20px 24px 0 20px;
+    }
+
+    &__bottom {
+      display: flex;
+      flex-direction: row;
+      // column-gap: 40px;
+      justify-content: space-between;
+      align-items: center;
+      margin: 25px 20px 20px 20px;
+
+      &__text {
+        color: $colorTextBlue;
+        font-family: 'Manrope';
+        font-size: 0.75rem;
+        margin: 7px 0 12px 0;
+      }
+
+      &__button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 12px;
+        width: 10px;
+        border: 1px solid #369fff;
+        border-radius: 10px;
+        padding: 10px 10px 9px 9px;
+      }
+    }
+  }
+
+  &__menu {
+    width: 145px;
+    margin: 125px 49px 0 44px;
+
+    &__special {
+      display: flex;
+      flex-direction: row;
+      column-gap: 30px;
+      margin-bottom: 40px;
+
+      &__logo {
+        height: 24px;
+        width: 24px;
+      }
+
+      &__flex {
+        display: flex;
+        flex-direction: row;
+        column-gap: 20px;
+
+        &__text {
+          color: $colorTextBlue;
+          font-family: 'Manrope', sans-serif;
+          font-weight: 600;
+          font-size: 14px;
+          display: flex;
+          align-items: center;
+        }
+
+        &__dot {
+          height: 8px;
+          width: 8px;
+        }
+      }
+    }
+
+    &__common {
+      display: flex;
+      flex-direction: row;
+      column-gap: 30px;
+      margin-bottom: 40px;
+
+      &__logo {
+        height: 24px;
+        width: 24px;
+      }
+
+      &__text {
+        color: $colorGray;
+        font-family: 'Manrope', sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .nav {
+    width: 360px;
+  
+    &__figure {
+      width: 121px;
+      margin: 44px 119.5px 0 119.5px;
+    }
+  
+    &__image {
+      width: 157.2px;
+      height: 190.46px;
+      margin: 60px 101.4px 99.54px 101.4px;
+    }
+  
+    &__upgrade {
+      display: flex;
+      flex-direction: column;
+      background-color: $colorSkyBlue;
+      width: 168px;
+      height: 106px;
+      border-radius: 18px;
+      margin: 0 96px 40px 96px;
+  
+      &__top {
+        color: $colorTextBlack;
+        font-family: 'Manrope';
+        font-weight: 700;
+        font-size: 14px;
+        margin: 20px 24px 0 20px;
+      }
+  
+      &__bottom {
+        display: flex;
+        flex-direction: row;
+        // column-gap: 40px;
+        justify-content: space-between;
+        align-items: center;
+        margin: 25px 20px 20px 20px;
+  
+        &__text {
+          color: $colorTextBlue;
+          font-family: 'Manrope';
+          font-size: 0.75rem;
+          margin: 7px 0 12px 0;
+        }
+  
+        &__button {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 12px;
+          width: 10px;
+          border: 1px solid #369fff;
+          border-radius: 10px;
+          padding: 10px 10px 9px 9px;
+        }
+      }
+    }
+  
+    &__menu {
+      width: 145px;
+      margin: 125px 107.5px 0 107.5px;
+  
+      &__special {
+        display: flex;
+        flex-direction: row;
+        column-gap: 30px;
+        margin-bottom: 40px;
+  
+        &__logo {
+          height: 24px;
+          width: 24px;
+        }
+  
+        &__flex {
+          display: flex;
+          flex-direction: row;
+          column-gap: 20px;
+  
+          &__text {
+            color: $colorTextBlue;
+            font-family: 'Manrope', sans-serif;
+            font-weight: 600;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+          }
+  
+          &__dot {
+            height: 8px;
+            width: 8px;
+          }
+        }
+      }
+  
+      &__common {
+        display: flex;
+        flex-direction: row;
+        column-gap: 30px;
+        margin-bottom: 40px;
+  
+        &__logo {
+          height: 24px;
+          width: 24px;
+        }
+  
+        &__text {
+          color: $colorGray;
+          font-family: 'Manrope', sans-serif;
+          font-weight: 600;
+          font-size: 14px;
+          display: flex;
+          align-items: center;
+        }
+      }
+    }
+  }
+}

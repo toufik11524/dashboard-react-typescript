@@ -1,0 +1,41 @@
+$fontRajdhani: 'Rajdhani', sans-serif;
+$fontUbuntu: 'Ubuntu';
+$fontManrope: 'Manrope';
+$fontsizeSmall: 14px;
+$fontsizeMedium: 18px;
+$fontSizeBodySmall: 16px;
+$fontSizeBodyMedium: 20px;
+$fontSizeHeaderSmall: 24px;
+$fontSizeHeaderBig: 36px;
+
+$colorTextDarkBlue: #006ED3;
+$colorTextGray:  #8EA3B7;
+$backgroundColorOrange: rgba(255, 153, 58, 0.2);
+$backgroundColorGreen: rgba(138, 197, 62, 0.2);
+$backgroundColorYellow: rgba(255, 209, 67, 0.2);
+$colorBackgroundWhiteGray: #f7f7f7;
+$colorTextBlue: #369fff;
+$colorOrange: #ff993a;
+$colorGreen: #8ac53e;
+$colorYellwo: #ffd143;
+$colorTextBlack: #303030;
+$colorGray: #bdbdbd;
+$colorMidWhite: #f0f0f0;
+$colorSkyBlue: rgba(54, 159, 255, 0.1);
+$colorRed: #ff0000;
+$colorBlue: #f7f7f7;
+$colordarkblue: #508ff4;
+$colorBlack: #494949;
+$colorLightBlack: #ced0d2;
+$opacity: 80%;
+$colorDrakGray: #ebebeb;
+$colorWhite: #ffffff;
+$headerColor: #085394;
+$colorHover: rgb(188, 233, 98);
+
+@mixin flexCenter($direction, $jusCon, $align) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $jusCon;
+  align-items: $align;
+}

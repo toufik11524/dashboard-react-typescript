@@ -1,0 +1,903 @@
+@import './variables';
+
+.course {
+  width: 726px;
+  padding-top: 50px;
+  margin: 0 0 0 0;
+  border-left: 2px solid $colorMidWhite;
+  border-right: 2px solid $colorMidWhite;
+
+  &__title {
+    margin-left: 50px;
+    color: $colorTextBlue;
+    font-family: $fontManrope;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+
+    &__hello {
+      font-weight: 400;
+    }
+
+    &__bruno {
+      font-weight: 700;
+    }
+  }
+
+  &__my {
+    &__header {
+      margin: 30px 50px 0 50px;
+      display: flex;
+      flex-direction: row;
+      column-gap: 288px;
+
+      &__leftside {
+        display: flex;
+        flex-direction: row;
+        column-gap: 20px;
+
+        &__mycourse {
+          font-family: 'Manrope';
+          font-weight: 700;
+          font-size: 30px;
+        }
+
+        &__view {
+          font-family: 'Manrope';
+          font-weight: 500;
+          font-size: 14px;
+          color: $colorTextBlue;
+          // display: flex;
+          // flex-direction: column;
+          // justify-content: center;
+          position: relative;
+          bottom: -15px;
+        }
+      }
+
+      &__rightside {
+        position: relative;
+        bottom: -15px;
+      }
+    }
+
+    &__detail {
+      display: flex;
+      flex-direction: column;
+      row-gap: 35px;
+      margin: 20px 50px 0 48px;
+
+      &__first {
+        display: flex;
+        flex-direction: row;
+        column-gap: 30px;
+
+        &__card--frence {
+          background-color: $colorTextBlue;
+          box-shadow: 0px 10px 30px rgba(54, 159, 255, 0.4);
+          border-radius: 20px;
+          height: 150px;
+          width: 300px;
+
+          display: flex;
+          flex-direction: row;
+          column-gap: 133px;
+
+          &__info {
+            display: flex;
+            flex-direction: column;
+            color: white;
+            margin: 20px 0 15px 20px;
+            row-gap: 20px;
+
+            &__top {
+              display: flex;
+              flex-direction: column;
+              row-gap: 0;
+
+              &__name {
+                font-family: $fontManrope;
+                font-weight: 700;
+                font-size: 20px;
+              }
+
+              &__lesson {
+                font-family: $fontManrope;
+                font-weight: 500;
+                font-size: 12px;
+              }
+            }
+          }
+
+          &__logo {
+            width: 50px;
+            height: 110px;
+            margin: 25px 30px 15px 0;
+          }
+        }
+
+        &__card--portuguese {
+          background-color: $colorOrange;
+          box-shadow: 0px 10px 30px rgba(255, 153, 58, 0.4);
+          border-radius: 20px;
+          height: 150px;
+          width: 300px;
+
+          display: flex;
+          flex-direction: row;
+          column-gap: 85px;
+
+          &__info {
+            display: flex;
+            flex-direction: column;
+            color: white;
+            margin: 20px 0 20px 25px;
+            row-gap: 15px;
+
+            &__top {
+              display: flex;
+              flex-direction: column;
+              row-gap: 0;
+
+              &__name {
+                font-family: $fontManrope;
+                font-weight: 700;
+                font-size: 20px;
+              }
+
+              &__lesson {
+                font-family: $fontManrope;
+                font-weight: 500;
+                font-size: 12px;
+              }
+            }
+          }
+
+          &__logo {
+            width: 53.1px;
+            height: 87.44px;
+            margin: 42px 34.9px 20.56px 0;
+          }
+        }
+      }
+
+      &__second {
+        display: flex;
+        flex-direction: row;
+        column-gap: 30px;
+
+        &__card--german {
+          background-color: $colorYellwo;
+          box-shadow: 0px 10px 30px rgba(138, 197, 62, 0.4);
+
+          border-radius: 20px;
+          height: 150px;
+          width: 300px;
+
+          display: flex;
+          flex-direction: row;
+          column-gap: 82px;
+
+          &__info {
+            display: flex;
+            flex-direction: column;
+            color: white;
+            margin: 20px 0 20px 25px;
+            row-gap: 15px;
+
+            &__top {
+              display: flex;
+              flex-direction: column;
+              row-gap: 0;
+
+              &__name {
+                font-family: $fontManrope;
+                font-weight: 700;
+                font-size: 20px;
+              }
+
+              &__lesson {
+                font-family: $fontManrope;
+                font-weight: 500;
+                font-size: 12px;
+              }
+            }
+          }
+
+          &__logo {
+            width: 90px;
+            height: 81px;
+            margin: 49px 26px 20px 0;
+          }
+        }
+
+        &__card--italian {
+          background-color: $colorGreen;
+          box-shadow: 0px 10px 30px rgba(255, 209, 67, 0.4);
+          border-radius: 20px;
+          height: 150px;
+          width: 300px;
+
+          display: flex;
+          flex-direction: row;
+          column-gap: 115px;
+
+          &__info {
+            display: flex;
+            flex-direction: column;
+            color: white;
+            margin: 20px 0 20px 25px;
+            row-gap: 15px;
+
+            &__top {
+              display: flex;
+              flex-direction: column;
+              row-gap: 0;
+
+              &__name {
+                font-family: $fontManrope;
+                font-weight: 700;
+                font-size: 20px;
+              }
+
+              &__lesson {
+                font-family: $fontManrope;
+                font-weight: 500;
+                font-size: 12px;
+              }
+            }
+          }
+
+          &__logo {
+            width: 67px;
+            height: 110px;
+            margin: 20px 25px 20px 0;
+          }
+        }
+      }
+    }
+  }
+
+  &__planing {
+    &__header {
+      margin: 40px 50px 0 48px;
+      display: flex;
+      flex-direction: row;
+      column-gap: 289px;
+
+      &__leftside {
+        display: flex;
+        flex-direction: row;
+        column-gap: 20px;
+
+        &__planning {
+          font-family: $fontManrope;
+          font-weight: 700;
+          font-size: 24px;
+        }
+
+        &__view {
+          font-family: $fontManrope;
+          font-weight: 500;
+          font-size: 14px;
+          color: $colorTextBlue;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          // align-items: center;
+          // position: relative;
+          // bottom: -15px;
+        }
+      }
+
+      &__rightside {
+        display: flex;
+        flex-direction: row;
+        column-gap: 16px;
+        justify-content: center;
+        align-items: center;
+
+        img {
+          height: 24px;
+          width: 24px;
+        }
+
+        &__date {
+          font-family: $fontManrope;
+          font-weight: 600;
+          font-size: 18px;
+          color: $colorTextBlue;
+        }
+      }
+    }
+
+    &__detail {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-column-gap: 30px;
+      grid-row-gap: 25px;
+      margin: 20px 50px 40px 48px;
+
+      &__card {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: $colorBackgroundWhiteGray;
+        width: 300px;
+        height: 80px;
+        border-radius: 16px;
+
+        &__left {
+          display: flex;
+          flex-direction: row;
+          column-gap: 15px;
+
+          &__first {
+            height: 50px;
+            width: 50px;
+            background-color: $colorSkyBlue;
+            border-radius: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 15px 0 15px 15px;
+          }
+
+          &__second {
+            height: 50px;
+            width: 50px;
+            background-color: $backgroundColorOrange;
+            border-radius: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 15px 0 15px 15px;
+          }
+
+          &__third {
+            height: 50px;
+            width: 50px;
+            background-color: $backgroundColorGreen;
+            border-radius: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 15px 0 15px 15px;
+          }
+
+          &__fourth {
+            height: 50px;
+            width: 50px;
+            background-color: $backgroundColorYellow;
+            border-radius: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 15px 0 15px 15px;
+          }
+
+          &__fifth {
+            height: 50px;
+            width: 50px;
+            background-color: $backgroundColorYellow;
+            border-radius: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 15px 0 15px 15px;
+          }
+
+          &__sixth {
+            height: 50px;
+            width: 50px;
+            background-color: $backgroundColorGreen;
+            border-radius: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 15px 0 15px 15px;
+          }
+
+          &__seventh {
+            height: 50px;
+            width: 50px;
+            background-color: $backgroundColorOrange;
+            border-radius: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 15px 0 15px 15px;
+          }
+
+          &__eight {
+            height: 50px;
+            width: 50px;
+            background-color: $colorSkyBlue;
+            border-radius: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 15px 0 15px 15px;
+          }
+
+          &__middle {
+            display: flex;
+            flex-direction: column;
+            margin-top: 21px;
+            margin-bottom: 22px;
+            font-family: $fontManrope;
+            font-size: 12px;
+
+            &__top {
+              font-weight: 600;
+              color: $colorTextBlack;
+            }
+
+            &__bottom {
+              font-weight: 400;
+              font-size: 12px;
+              color: $colorGray;
+            }
+          }
+        }
+
+        &__right {
+          height: 18px;
+          width: 4px;
+          margin: 31px 15px 0 0;
+        }
+      }
+    }
+  }
+
+}
+
+// Responsive for Mobile Device
+@media screen and (max-width: 360px) {
+  .course {
+    width: 360px;
+    border-left: none;
+    border-right: none;
+    margin: 0 0 0 0;
+
+    &__title {
+      margin-left: 50px;
+      color: $colorTextBlue;
+      font-family: $fontManrope;
+      font-size: 18px;
+      letter-spacing: 0.05em;
+  
+      &__hello {
+        font-weight: 400;
+      }
+  
+      &__bruno {
+        font-weight: 700;
+      }
+    }
+
+    &__my {
+
+      &__header {
+        // margin: 30px 50px 0 30px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        justify-content: center;
+        column-gap: 0;
+
+        &__leftside {
+          display: flex;
+          flex-direction: row;
+          column-gap: 20px;
+
+          &__mycourse {
+            font-family: 'Manrope';
+            font-weight: 700;
+            font-size: 30px;
+          }
+
+          &__view {
+            font-family: 'Manrope';
+            font-weight: 500;
+            font-size: 14px;
+            color: $colorTextBlue;
+            position: relative;
+            bottom: -15px;
+          }
+        }
+
+        &__rightside {
+          position: relative;
+          bottom: -15px;
+        }
+      }
+
+      &__detail {
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+        margin: 30px 50px 0 30px;
+
+        &__first {
+          display: flex;
+          flex-direction: column;
+          row-gap: 30px;
+
+          &__card--frence {
+            background-color: $colorTextBlue;
+            box-shadow: 0px 10px 30px rgba(54, 159, 255, 0.4);
+            border-radius: 20px;
+            height: 150px;
+            width: 300px;
+
+            display: flex;
+            flex-direction: row;
+            column-gap: 133px;
+
+            &__info {
+              display: flex;
+              flex-direction: column;
+              color: white;
+              margin: 20px 0 15px 20px;
+              row-gap: 20px;
+
+              &__top {
+                display: flex;
+                flex-direction: column;
+                row-gap: 0;
+
+                &__name {
+                  font-family: $fontManrope;
+                  font-weight: 700;
+                  font-size: 20px;
+                }
+
+                &__lesson {
+                  font-family: $fontManrope;
+                  font-weight: 500;
+                  font-size: 12px;
+                }
+              }
+            }
+
+            &__logo {
+              width: 50px;
+              height: 110px;
+              margin: 25px 30px 15px 0;
+            }
+          }
+
+          &__card--portuguese {
+            background-color: $colorOrange;
+            box-shadow: 0px 10px 30px rgba(255, 153, 58, 0.4);
+            border-radius: 20px;
+            height: 150px;
+            width: 300px;
+
+            display: flex;
+            flex-direction: row;
+            column-gap: 85px;
+
+            &__info {
+              display: flex;
+              flex-direction: column;
+              color: white;
+              margin: 20px 0 20px 25px;
+              row-gap: 15px;
+
+              &__top {
+                display: flex;
+                flex-direction: column;
+                row-gap: 0;
+
+                &__name {
+                  font-family: $fontManrope;
+                  font-weight: 700;
+                  font-size: 20px;
+                }
+
+                &__lesson {
+                  font-family: $fontManrope;
+                  font-weight: 500;
+                  font-size: 12px;
+                }
+              }
+            }
+
+            &__logo {
+              width: 53.1px;
+              height: 87.44px;
+              margin: 42px 34.9px 20.56px 0;
+            }
+          }
+        }
+
+        &__second {
+          display: flex;
+          flex-direction: column;
+          row-gap: 30px;
+
+          &__card--german {
+            background-color: $colorYellwo;
+            box-shadow: 0px 10px 30px rgba(138, 197, 62, 0.4);
+
+            border-radius: 20px;
+            height: 150px;
+            width: 300px;
+
+            display: flex;
+            flex-direction: row;
+            column-gap: 82px;
+
+            &__info {
+              display: flex;
+              flex-direction: column;
+              color: white;
+              margin: 20px 0 20px 25px;
+              row-gap: 15px;
+
+              &__top {
+                display: flex;
+                flex-direction: column;
+                row-gap: 0;
+
+                &__name {
+                  font-family: $fontManrope;
+                  font-weight: 700;
+                  font-size: 20px;
+                }
+
+                &__lesson {
+                  font-family: $fontManrope;
+                  font-weight: 500;
+                  font-size: 12px;
+                }
+              }
+            }
+
+            &__logo {
+              width: 90px;
+              height: 81px;
+              margin: 49px 26px 20px 0;
+            }
+          }
+
+          &__card--italian {
+            background-color: $colorGreen;
+            box-shadow: 0px 10px 30px rgba(255, 209, 67, 0.4);
+            border-radius: 20px;
+            height: 150px;
+            width: 300px;
+
+            display: flex;
+            flex-direction: row;
+            column-gap: 115px;
+
+            &__info {
+              display: flex;
+              flex-direction: column;
+              color: white;
+              margin: 20px 0 20px 25px;
+              row-gap: 15px;
+
+              &__top {
+                display: flex;
+                flex-direction: column;
+                row-gap: 0;
+
+                &__name {
+                  font-family: $fontManrope;
+                  font-weight: 700;
+                  font-size: 20px;
+                }
+
+                &__lesson {
+                  font-family: $fontManrope;
+                  font-weight: 500;
+                  font-size: 12px;
+                }
+              }
+            }
+
+            &__logo {
+              width: 67px;
+              height: 110px;
+              margin: 20px 25px 20px 0;
+            }
+          }
+        }
+      }
+    }
+
+    &__planing {
+      &__header {
+        // margin: 40px 50px 0 48px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        column-gap: 0;
+
+        &__leftside {
+          display: flex;
+          flex-direction: row;
+          column-gap: 20px;
+          justify-content: center;
+
+          &__planning {
+            font-family: $fontManrope;
+            font-weight: 700;
+            font-size: 24px;
+          }
+
+          &__view {
+            font-family: $fontManrope;
+            font-weight: 500;
+            font-size: 14px;
+            color: $colorTextBlue;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+          }
+        }
+
+        &__rightside {
+          display: flex;
+          flex-direction: row;
+          column-gap: 16px;
+          justify-content: center;
+          align-items: center;
+
+          img {
+            height: 24px;
+            width: 24px;
+          }
+
+          &__date {
+            font-family: $fontManrope;
+            font-weight: 600;
+            font-size: 18px;
+            color: $colorTextBlue;
+          }
+        }
+      }
+
+      &__detail {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 25px;
+        margin: 20px 30px 40px 30px;
+
+        &__card {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          background-color: $colorBackgroundWhiteGray;
+          width: 300px;
+          height: 80px;
+          border-radius: 16px;
+
+          &__left {
+            display: flex;
+            flex-direction: row;
+            column-gap: 15px;
+
+            &__first {
+              height: 50px;
+              width: 50px;
+              background-color: $colorSkyBlue;
+              border-radius: 12px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin: 15px 0 15px 15px;
+            }
+
+            &__second {
+              height: 50px;
+              width: 50px;
+              background-color: $backgroundColorOrange;
+              border-radius: 12px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin: 15px 0 15px 15px;
+            }
+
+            &__third {
+              height: 50px;
+              width: 50px;
+              background-color: $backgroundColorGreen;
+              border-radius: 12px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin: 15px 0 15px 15px;
+            }
+
+            &__fourth {
+              height: 50px;
+              width: 50px;
+              background-color: $backgroundColorYellow;
+              border-radius: 12px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin: 15px 0 15px 15px;
+            }
+
+            &__fifth {
+              height: 50px;
+              width: 50px;
+              background-color: $backgroundColorYellow;
+              border-radius: 12px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin: 15px 0 15px 15px;
+            }
+
+            &__sixth {
+              height: 50px;
+              width: 50px;
+              background-color: $backgroundColorGreen;
+              border-radius: 12px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin: 15px 0 15px 15px;
+            }
+
+            &__seventh {
+              height: 50px;
+              width: 50px;
+              background-color: $backgroundColorOrange;
+              border-radius: 12px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin: 15px 0 15px 15px;
+            }
+
+            &__eight {
+              height: 50px;
+              width: 50px;
+              background-color: $colorSkyBlue;
+              border-radius: 12px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin: 15px 0 15px 15px;
+            }
+
+            &__middle {
+              display: flex;
+              flex-direction: column;
+              margin-top: 21px;
+              margin-bottom: 22px;
+              font-family: $fontManrope;
+              font-size: 12px;
+
+              &__top {
+                font-weight: 600;
+                color: $colorTextBlack;
+              }
+
+              &__bottom {
+                font-weight: 400;
+                font-size: 12px;
+                color: $colorGray;
+              }
+            }
+          }
+
+          &__right {
+            height: 18px;
+            width: 4px;
+            margin: 31px 15px 0 0;
+          }
+        }
+      }
+    }
+  }
+}

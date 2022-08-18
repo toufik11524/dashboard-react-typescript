@@ -1,0 +1,19 @@
+@import './variables';
+
+.app {
+  display: flex;
+  flex-direction: row;
+  width: 1440px;
+  height: 100%;
+  background-color: $colorWhite;
+}
+
+@media screen and (max-width: 360px) {
+
+  .app {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+}
