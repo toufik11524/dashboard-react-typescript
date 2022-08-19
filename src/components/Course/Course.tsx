@@ -23,10 +23,10 @@ const Course = () => {
         <span className="course__title__bruno">BRUNO</span>
         <span className="course__title__hello">, welcome back!</span>
       </section>
-      <section className="course__my">
+      <section data-testid="course-section" className="course__my">
         <section className="course__my__header">
           <span className="course__my__header__leftside">
-            <span className="course__my__header__leftside__mycourse">
+            <span title='My Courses' className="course__my__header__leftside__mycourse">
               My Courses
             </span>
             <span className="course__my__header__leftside__view">View All</span>
@@ -128,7 +128,7 @@ const Course = () => {
       <section className="course__planing">
         <section className="course__planing__header">
           <span className="course__planing__header__leftside">
-            <span className="course__planing__header__leftside__planning">
+            <span title="planning" className="course__planing__header__leftside__planning">
               Planning
             </span>
             <span className="course__planing__header__leftside__view">
