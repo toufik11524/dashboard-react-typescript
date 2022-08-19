@@ -1,12 +1,23 @@
 import React from 'react';
-import logo from '../../assets/images/logo.png';
 import pictureGirl from '../../assets/images/girlLaptop.png';
+import logo from '../../assets/images/logo.png';
 import Menu from './Menu';
 import Upgrade from './Upgrade';
 
-const Nav = () => {
+interface Props {
+  color: string;
+  backgroundColor: string;
+}
+
+const Nav: React.FC<Props> = (props) => {
   return (
-    <section className="nav">
+    <section
+      style={{
+        backgroundColor: props.backgroundColor,
+        color: props.color,
+      }}
+      className="nav"
+    >
       <figure className="nav__figure">
         <img src={logo} alt="Logo" />
       </figure>
